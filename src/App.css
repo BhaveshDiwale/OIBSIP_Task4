@@ -1,0 +1,28 @@
+body{
+  background: #C8FFE0;
+}
+
+h1,h2,h3,h4,h5,h6{
+  color: #614BC3;
+}
+
+input{
+  width: 300px;
+  padding: 10px !important;
+  border-radius: 5px;
+  margin-bottom: 10px !important;
+  color: #614BC3 !important;
+  font-weight: 600 !important;
+}
+
+input:focus{
+  outline: none;
+  /* font-weight: 600; */
+  transition: ease;
+}
+
+@media screen and (max-width:426px) {
+  input{
+    width: 250px;
+  }
+}
